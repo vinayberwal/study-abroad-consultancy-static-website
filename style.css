@@ -4,7 +4,11 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
 }
+
 
 .contact-image img {
   width: 100%;
