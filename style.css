@@ -1,4 +1,11 @@
 .about-image img,
+.hero {
+  background-image: url('./assets/images/abroad.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 .contact-image img {
   width: 100%;
   max-width: 800px;
