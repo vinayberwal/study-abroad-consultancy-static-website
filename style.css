@@ -1,41 +1,16 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+.about-image img,
+.contact-image img {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-header {
-  background: #003566;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
+
+h2 {
+  color: #003566;
+  font-size: 2em;
+  margin-bottom: 10px;
 }
-nav a {
-  margin: 0 10px;
-  color: #ffffff;
-  text-decoration: none;
-}
-.hero {
-  background: url('assets/images/abroad.jpg') no-repeat center center/cover;
-  padding: 80px 20px;
-  color: white;
-  text-align: center;
-}
-footer {
-  background: #001d3d;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-.whatsapp-btn {
-  display: inline-block;
-  margin-top: 10px;
-  background: #25D366;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-.content {
-  padding: 20px;
-}
+
